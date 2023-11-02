@@ -6,7 +6,7 @@ import styles from './styles';
 const Home = () => {
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
+      <Text style={styles.title}>Hello World</Text>
     </ScrollView>
   );
 };

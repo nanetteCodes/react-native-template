@@ -8,15 +8,13 @@ Built by Nanette Boghosian
 
 - Navigation setup for stack and bottomtab navigators using react navigation
 - redux integration with redux-toolkit
-- absolute path configuration for both javascript and typscript projects
+- absolute path configuration
 
 ## :arrow_forward: Usage
 
 ```sh
 npx react-native init SomeApp --template https://github.com/nanetteCodes/rnTemplate.git
 ```
-
-See the below table to find out which version of the template to use.
 
 ## :bookmark: License
 
