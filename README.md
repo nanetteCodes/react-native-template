@@ -9,6 +9,7 @@ Built by Nanette Boghosian
 - Navigation setup for stack and bottomtab navigators using react navigation
 - redux integration with redux-toolkit
 - absolute path configuration
+- unit testing setup with testing-library/react-native and jest
 
 ## :arrow_forward: Usage
 
