@@ -1,5 +1,6 @@
-// Usage:   const { data, isPending, error } = useFetch(url);
-
+/**
+ * @usage const { data, isPending, error } = useFetch(url);
+ */
 import {useState, useEffect} from 'react';
 
 interface FetchState<T> {
