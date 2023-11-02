@@ -1,12 +1,12 @@
-import {route} from '../constants';
+import {routes} from '../constants';
 
 export default {
   config: {
-    initialRouteName: route.HOME,
+    initialRouteName: routes.HOME,
     screens: {
-      [route.BOTTOM_TABS]: {
+      [routes.BOTTOM_TABS]: {
         screens: {
-          [route.HOME]: '/',
+          [routes.HOME]: '/',
         },
       },
     },

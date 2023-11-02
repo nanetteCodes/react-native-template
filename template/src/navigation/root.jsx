@@ -3,14 +3,14 @@ import {StatusBar, View} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {route} from '@/constants';
+import {routes} from '@/constants';
 import linking from './linking';
 import Home from '@/screens/home/home';
 
 const Stack = createNativeStackNavigator();
 
 const StackNavigatior = () => (
-  <Stack.Navigator mode="modal" initialRouteName={route.HOME}>
+  <Stack.Navigator mode="modal" initialRouteName={routes.HOME}>
     {/* <Stack.Screen
 				name={'BottomTabs'}
 				component={BottomTabs}
@@ -18,7 +18,7 @@ const StackNavigatior = () => (
 					headerShown: false,
 				}}
 			/> */}
-    <Stack.Screen name={route.HOME} component={Home} />
+    <Stack.Screen name={routes.HOME} component={Home} />
   </Stack.Navigator>
 );
 const Navigation = () => (

@@ -20,7 +20,7 @@ export const deviceTypes = {
 };
 
 // list of route names defined on the navigator
-export const route = {
+export const routes = {
   BOTTOM_TABS: 'BottomTabs',
   HOME: 'Home',
 };
