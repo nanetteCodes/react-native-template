@@ -10,6 +10,7 @@ Built by Nanette Boghosian
 - redux integration with redux-toolkit
 - absolute path configuration
 - unit testing setup with testing-library/react-native and jest
+- icon library setup using react-native-vector-icons
 
 ## :arrow_forward: Usage
 
