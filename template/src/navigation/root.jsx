@@ -3,9 +3,9 @@ import {StatusBar, View} from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {route} from '/constants';
+import {route} from '@/constants';
 import linking from './linking';
-import Home from '/screens/home/home';
+import Home from '@/screens/home/home';
 
 const Stack = createNativeStackNavigator();
 
