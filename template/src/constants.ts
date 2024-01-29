@@ -1,4 +1,4 @@
-export const actionTypes = {};
+export const actionTypes = {}; // Define a specific type if needed
 
 export const statusTypes = {
   STATUS_FAILED: 'failed',
@@ -19,7 +19,6 @@ export const deviceTypes = {
   UNKNOWN: 'unknown',
 };
 
-// list of route names defined on the navigator
 export const routes = {
   BOTTOM_TABS: 'BottomTabs',
   HOME: 'Home',

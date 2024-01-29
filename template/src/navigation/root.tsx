@@ -9,26 +9,27 @@ import Home from '@/screens/home/home';
 
 const Stack = createNativeStackNavigator();
 
-const StackNavigatior = () => (
+const StackNavigator: React.FC = () => (
   <Stack.Navigator mode="modal" initialRouteName={routes.HOME}>
     {/* <Stack.Screen
-				name={'BottomTabs'}
-				component={BottomTabs}
-				options={{
-					headerShown: false,
-				}}
-			/> */}
+        name={'BottomTabs'}
+        component={BottomTabs}
+        options={{
+          headerShown: false,
+        }}
+      /> */}
     <Stack.Screen name={routes.HOME} component={Home} />
   </Stack.Navigator>
 );
-const Navigation = () => (
+
+const Navigation: React.FC = () => (
   <NavigationContainer linking={linking}>
     <View style={{flex: 1}}>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={{backgroundColor: Colors.lighter}}
       />
-      <StackNavigatior />
+      <StackNavigator />
     </View>
   </NavigationContainer>
 );
